@@ -6,7 +6,7 @@ import pandas as pd
 
 app = dash.Dash()
 
-df = pd.read_csv(r'C:\Users\chand\PycharmProjects\Learning_Dash\data\OldFaithful.csv')
+df = pd.read_csv('OldFaithful.csv')
 
 app.layout = html.Div(children=[
     html.H1('Dashboard Exercise', style={'textAlign': 'center', 'color': 'black'}),
