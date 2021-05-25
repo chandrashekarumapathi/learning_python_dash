@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\chand\PycharmProjects\Learning_Dash\data\abalone.csv')
+df = pd.read_csv('abalone.csv')
 
 y1 = np.random.choice(df['rings'], 30, replace=False)
 y2 = np.random.choice(df['rings'], 20, replace=False)
