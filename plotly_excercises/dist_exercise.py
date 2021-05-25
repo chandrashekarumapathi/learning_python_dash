@@ -2,7 +2,7 @@ import plotly.offline as pyo
 import plotly.figure_factory as ff
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\chand\PycharmProjects\Learning_Dash\data\iris.csv')
+df = pd.read_csv('iris.csv')
 
 hist_data = [df[df['class'] == response]['petal_length'].tolist() for response in df['class'].unique()]
 
