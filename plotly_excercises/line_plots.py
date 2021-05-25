@@ -3,8 +3,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 
 # Data Extraction
-df = pd.read_csv(r'F:\Courses\Interactive Python Dashboards with Plotly and '
-                 r'Dash\Plotly-Dashboards-with-Dash-master\Data\2010YumaAZ.csv')
+df = pd.read_csv(r'YumaAZ.csv')
 
 # Prepare a list to execute the analysis as per requirement
 # days = ['TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY', 'MONDAY']
