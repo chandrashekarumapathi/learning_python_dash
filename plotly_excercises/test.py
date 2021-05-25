@@ -2,7 +2,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\chand\PycharmProjects\Learning_Dash\data\mocksurvey.csv', index_col=0)
+df = pd.read_csv('mocksurvey.csv', index_col=0)
 
 data = [go.Bar(x=df.index, y=df[response], name=response) for response in df.columns]
 
