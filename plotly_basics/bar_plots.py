@@ -2,7 +2,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 import pandas as pd
 
-df = pd.read_csv(r'C:\Users\chand\PycharmProjects\Learning_Dash\data\2018WinterOlympics.csv')
+df = pd.read_csv('WinterOlympics.csv')
 
 print(df)
 
